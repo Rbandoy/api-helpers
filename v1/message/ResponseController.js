@@ -1,4 +1,4 @@
-const ResponseController = {};
+const ResponseController = {}
 
 ResponseController.apiResponse = ({
   isSuccess = true,
@@ -13,7 +13,7 @@ ResponseController.apiResponse = ({
     data: data,
     message: message,
     ...appendData,
-  };
-};
+  }
+}
 
-module.exports = ResponseController;
+module.exports = ResponseController
